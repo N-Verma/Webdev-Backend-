@@ -1,0 +1,10 @@
+<h1>items page here</h1>
+
+<% items.forEach(function(item){ %>
+    <li><%= item %></li>
+<% }); %>
+
+<form action="/additem" method="POST">
+    <input type = "text" name="newItem" placeholder = "Add item">
+    <button>Add item</button>
+</form>

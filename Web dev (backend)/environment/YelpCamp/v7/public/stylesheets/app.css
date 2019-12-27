@@ -1,0 +1,22 @@
+.navbar-nav > li{
+      padding-left:10px;
+      padding-right:10px;
+}
+image{
+    margin-left:20px;
+    margin-right:20px;
+}
+.showimage{
+    height:500px;
+    width:720px;
+}
+      
+.thumbnail img{
+    width:100%;
+}  
+.thumbnail{
+    padding: 0;
+} 
+.thumbnail .caption-full{
+    padding: 9px;
+}

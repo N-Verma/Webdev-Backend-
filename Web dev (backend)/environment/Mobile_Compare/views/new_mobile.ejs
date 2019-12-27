@@ -1,0 +1,15 @@
+<% include partials/header %>
+<h2>Create New Mobile</h2>
+
+<form action="/mobiles" method="POST">
+    <input type="text" name="name" placeholder="Enter the Mobile Name Here">
+    <input type="text" name="img" placeholder="Mobile Image URL">
+    <input type="text" name="desc[display]" placeholder="Display">
+    <input type="text" name="desc[storage]" placeholder="Storage">
+    <input type="text" name="desc[battery]" placeholder="Battery">
+    <input type="text" name="desc[RAM]" placeholder="RAM">
+    <input type="text" name="desc[price]" placeholder="Price(in Rupees)">
+    <button>Submit</button>
+</form>
+
+<% include partials/footer %>
