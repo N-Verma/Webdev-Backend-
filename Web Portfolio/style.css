@@ -52,19 +52,37 @@ img{
 }
 
 /* skillset */
+p{
+  display:flex;
+  margin-top:20px;
+  color:black;
+  font-size:25px;
+  margin-left:20px;
+}
+/* skillset */
 .skill{
   display:flex;
   flex-direction:row;
   justify-content:space-around;
+  margin-top:10px;
 }
 
 .s{
   border:2px solid black;
   width:30%;
-  height:150px;
+  height:200px;
   font-size:16px;
   
 }
+.active{
+  display:none;
+}
+.img1{
+/*   display:cover; */
+  height:auto;
+  width:100%;
+}
+
 
 /* footer{
   display:flex;
