@@ -2,6 +2,7 @@
 	background-color:var(--main-color);
 	display:flex;
 	justify-content:center;
+	-webkit-transition: background-color 800ms linear;
 	
 }
 h1{
@@ -42,6 +43,7 @@ button{
 	margin-bottom:20px;
 	margin-left:10px;
 	font-size:15px;
+	-webkit-transition: background-color 800ms linear;
 }
 #new-quote{
 	position:relative;
