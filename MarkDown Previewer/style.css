@@ -1,0 +1,21 @@
+#root{
+  background-color:aquamarine;
+  display:flex;
+  justify-content:center;
+}
+h3{
+  background-color:blue;
+  color:white;
+}
+#edit{
+  width:60%;
+  background-color:lightblue;
+  padding:10px;
+}
+textarea{
+  margin-top:-18px;
+  width:99%;
+  height:350px;
+  overflow:hidden;
+}
+
