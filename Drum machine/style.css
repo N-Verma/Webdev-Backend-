@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+audio{
+    display: none;
+}
+button{
+    text-decoration: none;
+    width: 80px;
+    height: 80px;
+    background-color: darkgray;
+    border: 2px solid darkgray;
+    margin: 10px;
+    box-shadow: 3px 4px 4px 2px black;
+}
+
+#drum-machine{
+    margin-top: 50px;
+    border: 4px solid yellow;
+    width:70%;
+    height:350px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+.btn-side{
+    background-color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#display{
+    background-color: lightgray;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+p{
+    padding-left: 40px;
+    background-color: gray;
+}
