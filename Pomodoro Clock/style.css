@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+    text-align: center;
+}
+#root{
+    display: flex;
+    flex-direction: column;
+}
+#timer{
+    border: 3px solid red;
+    border-radius: 50%;
+    height:200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    font-size: 35px;
+}
+#control{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px solid blue;
+    border-radius: :20px;
+    height: 100px;
+    font-size: 25px;
+    padding-top: 20px;
+}
+#start-stop{
+   
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
