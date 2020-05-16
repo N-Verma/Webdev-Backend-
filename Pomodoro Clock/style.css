@@ -35,3 +35,30 @@ body{
     flex-direction: row;
     justify-content: space-between;
 }
+
+.btn{
+    width:70px;
+    height:40px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.start{
+    background-color: green;
+    border:1px solid green;
+    color: white;
+    font-size: 20px;   
+}
+
+.pause{
+    background-color: deepskyblue;
+    border:1px solid deepskyblue;
+    color: white;
+    font-size: 20px;   
+}
+
+.reset{
+    background-color: red;
+    border:1px solid red;
+    color: white;
+    font-size: 20px;   
+}
