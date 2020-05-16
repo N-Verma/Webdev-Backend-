@@ -78,14 +78,15 @@ class Button extends React.Component{
     }
     
     handleReset=()=>{
+        
         this.props.reset();
     }
     render(){
         return(
         <div id="start-stop">
-            <button onClick={this.timer}>Start</button>
-            <button>Pause</button>
-            <button onClick={this.handleReset}>Reset</button>
+            <button class="btn start" onClick={this.timer}>Start</button>
+            <button class="btn pause" onClick={this.props.pause}>Pause</button>
+            <button class="btn reset" onClick={this.handleReset}>Reset</button>
         </div>
         )
     }
@@ -205,12 +206,15 @@ class Clock extends React.Component{
     }
     
     reset=()=>{
-        
+        clearInterval(this.state.id);
         this.setState({
             workTime:25,
             breakTime:5,
             currTime:"25 : 00"
         })
+    }
+    pause=()=>{
+        clearInterval(this.state.id);
     }
     
     render(){
@@ -244,6 +248,7 @@ class Clock extends React.Component{
                 runTime={this.runTime}
                 startTime={this.startTime} 
                 reset={this.reset}
+                pause={this.pause}
                />
                 
             </div>
